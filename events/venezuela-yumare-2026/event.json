@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "slug": "venezuela-yumare-2026",
+  "title": "2026 Yumare, Venezuela",
+  "event_type": "Earthquake",
+  "event_date": "2026-06-24",
+  "tag": "Snapshot briefing",
+  "meta": "M7.5 · June 24, 2026",
+  "description": "APHR snapshot briefing for the Yumare, Venezuela earthquake.",
+  "button_label": "Open Venezuela briefing",
+  "products": [
+    {
+      "slug": "snapshot-20260625",
+      "title": "Snapshot briefing · June 25, 2026",
+      "product_type": "snapshot_briefing",
+      "generated_at": "2026-06-25T22:16:36Z",
+      "counts": {
+        "facts_cited": 59,
+        "facts_total": 289,
+        "sources": 38
+      },
+      "summary": "Latest APHR snapshot briefing for the Yumare, Venezuela earthquake.",
+      "manifest_path": "products/snapshot-20260625/manifest.json",
+      "snapshot_time": "2026-06-25T22:12:46Z"
+    }
+  ],
+  "latest_product_slug": "snapshot-20260625"
+}

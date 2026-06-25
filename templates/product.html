@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page_title }}</title>
+  <link rel="stylesheet" href="../../../../assets/css/site.css">
+  <link rel="stylesheet" href="../../../../assets/css/report.css">
+</head>
+<body>
+  {{ topbar }}
+  {{ content_drawer }}
+  <div class="site-shell">
+    <main class="site-main">
+      {{ brand_strip }}
+
+      <header class="report-header" id="product-overview">
+        <h1 class="report-title">
+          <span class="title-location">{{ event_title }}</span>
+          <span class="title-product">{{ product_title }}</span>
+        </h1>
+        <div class="header-times">
+          {{ product_meta }}
+        </div>
+      </header>
+
+      <div class="report-container">
+        {{ content_html }}
+      </div>
+
+      <footer class="site-footer">
+        Khalid M. Mosalam and Guanren Zhou · University of California, Berkeley
+      </footer>
+    </main>
+  </div>
+  <script src="../../../../assets/js/site.js"></script>
+  <script src="../../../../assets/js/report.js"></script>
+  <script src="../../../../assets/js/citations.js"></script>
+</body>
+</html>
