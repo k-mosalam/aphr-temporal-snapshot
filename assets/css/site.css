@@ -693,6 +693,8 @@ a {
     padding: 0 12px;
   }
 
+  /* all the existing mobile rules */
+  
   .global-breadcrumb {
     gap: 6px;
     font-size: 13px;
@@ -769,4 +771,21 @@ a {
   .featured-product h2 {
     font-size: 20px;
   }
+}
+
+/* Site visit counter */
+  .site-counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  margin: 0.75rem 0 1.25rem 0;
+  font-size: 0.95rem;
+  color: #4b5563;
+}
+
+.site-counter img {
+  height: 22px;
+  width: auto;
+  display: inline-block;
 }
